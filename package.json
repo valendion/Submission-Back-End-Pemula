@@ -1,0 +1,19 @@
+{
+  "name": "submission_back_end_pemula",
+  "version": "1.0.0",
+  "description": "Tugas Akhir Back End Pemula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valendion/Submission-Back-End-Pemula.git"
+  },
+  "author": "valendion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valendion/Submission-Back-End-Pemula/issues"
+  },
+  "homepage": "https://github.com/valendion/Submission-Back-End-Pemula#readme"
+}
