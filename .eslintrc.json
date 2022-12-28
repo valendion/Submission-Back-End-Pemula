@@ -1,15 +1,16 @@
 {
-    "env": {
-        "commonjs": true,
-        "es2021": true,
-        "node": true
-    },
-    "extends": "eslint:recommended",
-    "overrides": [
-    ],
-    "parserOptions": {
-        "ecmaVersion": "latest"
-    },
-    "rules": {
-    }
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {},
+  "eol-last": 0,
+  "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }]
 }
+
