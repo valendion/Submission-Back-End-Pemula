@@ -76,4 +76,12 @@ const addBookHandler = (request, h) => {
   }
 };
 
-module.exports = { addBookHandler };
+const getAllBooks = () => ({
+  status: 'success',
+  message: 'Buku berhasil ditambahkan',
+  data: {
+    books,
+  },
+});
+
+module.exports = { addBookHandler, getAllBooks };
