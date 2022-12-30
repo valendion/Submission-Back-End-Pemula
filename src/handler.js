@@ -87,9 +87,7 @@ const getAllBooks = () => {
   }));
   return {
     status: 'success',
-    data: {
-      booksMap,
-    },
+    data: { books: booksMap },
   };
 };
 
@@ -149,7 +147,7 @@ const editBookHandler = (request, h) => {
         'Gagal memperbarui buku. readPage tidak boleh lebih besar dari pageCount',
     });
 
-    response.code(404);
+    response.code(400);
     return response;
   } else if (index === -1) {
     const response = h.response({
